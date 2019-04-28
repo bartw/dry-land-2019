@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #cccccc;
+  background-color: #252525;
+}
+
+.container {
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.hero {
+  height: 100vh;
+  z-index: -1;
+  transform: translateZ(-1px) scale(2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero__logo {
+  height: 80vmin;
+}
