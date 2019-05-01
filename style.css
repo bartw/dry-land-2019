@@ -1,10 +1,15 @@
 body {
   font-family: sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #cccccc;
   background-color: #252525;
+}
+
+h1 {
+  font-size: 1.25em;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -28,4 +33,59 @@ body {
 
 .hero__logo {
   height: 80vmin;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  background-color: #252525; 
+}
+
+.page {
+  width: 80%;
+  margin: 0 auto;
+  flex-grow: 1;
+  padding-top: 10px;
+}
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  background-color: #303030;
+  padding: 40px 20px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+  border-radius: 5px;
+}
+
+.wrapped {
+  margin: 0 10px 10px 0;
+}
+
+.event-detail, li {
+  margin-bottom: 5px;
+}
+
+i {
+  width: 20px;
+  text-align: center
+}
+
+.equipment ul {
+  background-color: #303030;
+  padding: 40px 20px;
+  margin: 10px 10px 0 0;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
+  border-radius: 5px;
+}
+
+.footer {
+  text-align: center;
+  line-height: 30px;
+  font-size: 0.6em;
 }
