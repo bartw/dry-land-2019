@@ -66,11 +66,12 @@ h1 {
 
 li {
   margin-bottom: 10px;
+  display: flex;
 }
 
 i {
   width: 30px;
-  text-align: center
+  text-align: center;
 }
 
 .equipment ul {
